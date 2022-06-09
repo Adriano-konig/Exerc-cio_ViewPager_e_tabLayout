@@ -1,12 +1,8 @@
 package br.com.zup.exercicio_03_aula_36.informacoes
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
-import br.com.zup.exercicio_03_aula_36.FragmentoClick
-import br.com.zup.exercicio_03_aula_36.R
 import br.com.zup.exercicio_03_aula_36.databinding.ActivityInformacoesBinding
 import br.com.zup.exercicio_03_aula_36.informacoes.adapter.InformacoesPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
@@ -14,7 +10,7 @@ import com.google.android.material.tabs.TabLayoutMediator
 class InformacoesActivity : AppCompatActivity(){
 
     private lateinit var binding: ActivityInformacoesBinding
-    //private lateinit var interfaceClick: FragmentoClick
+//    private lateinit var interfaceClick: FragmentoClick
     private val listaTitulos = listOf("Informações","Fotos")
 
 

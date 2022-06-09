@@ -6,10 +6,10 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 class Musica (
     private var imagem:Int,
-    private var nome:Int,
+    private var nome:String,
     private var detalhe: String
         ):Parcelable{
     fun getImagem()=this.imagem
-    fun getnome()=this.nome
+    fun getNome()=this.nome
     fun getDetalhe()=this.detalhe
 }
